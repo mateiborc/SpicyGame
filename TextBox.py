@@ -1,6 +1,7 @@
 from Entity import *
 
 
+
 class TextBox(Entity):
     def __init__(self, x, y):
         """
@@ -15,7 +16,7 @@ class TextBox(Entity):
                  "|                      |",
                  "------------------------"]
         self.sprite = self.blankSprite
-        self.text = ["hi bob","string",""]
+        self.text = ["hi bob","string", ""]
         self.height = 3
 
     def print(self, string):
